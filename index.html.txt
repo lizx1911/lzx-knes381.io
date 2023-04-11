@@ -1,7 +1,221 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>knes-381-L</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('https://cdnsciencepub.com/cms/10.1139/h2012-098/asset/images/large/h2012-098f1.jpeg');
+      min-height: 100%;
+    }
+    </style>
+  </head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Experimental display by others</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Report</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Video</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:0%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b> The Impact of Force Versus Cadence on VO2 During a Step Incremental Test</b></h1>
+    <p>Zhixuan Li.</p>
+    <img src="https://www.w3schools.com/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="https://www.w3schools.com/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <a href="./final_project.pdf" target="_blank">
+      <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+        <i class="fa fa-download"></i> Download Report
+      </button>
+    </a>
+  </header>
+
+  <!-- Image Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">Experimental display by others</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://www.fgcu.edu/mariebcollege/rehabilitationsciences/exercisescience/images/facilities/cardiac-stress-system.jpg" style="width:100%">
+        <img src="http://bachlab.pitt.edu/sites/default/files/PDF/screen-shot-2015-10-12-at_med-3.png" style="width:100%">
+        <img src="http://bachlab.pitt.edu/sites/default/files/PDF/screen-shot-2015-10-12-at_med.png" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://www.fgcu.edu/mariebcollege/rehabilitationsciences/exercisescience/images/facilities/monark-ergometers.jpg" style="width:100%">
+        <img src="https://i.ytimg.com/vi/gBGR8fwEBc8/maxresdefault.jpg" style="width:100%">
+        <img src="https://sparecyclesblog.files.wordpress.com/2019/09/5-1-5_11inked3.jpg" style="width:100%">
+        <img src="https://cdn05.zipify.com/XsK_aL8hXDmt7ugOkp9wXHDSyS0=/fit-in/1080x0/2899175324b44ff19bec0fe2fbb76ec4/oh1-vs-h10-vs-h9-small.jpeg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Image Section -->
+  </div>
+
+  <!-- Introduction Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>Introduction</h2>
+    <hr class="w3-opacity">
+    <p>-Research Question: What is the effect of force versus cadence on VO2 during a step incremental test?<br>
+-In this experiment we manipulated the force and cadence which results in different VO2max at given power output<br>
+-Most accurate method to assess fitness is through measuring the VO2MAX<br>
+-Step incremental test is used to asses the VO2MAX<br>
+    
+    </p>
+    <h2>Introduction content</h2>
+    <hr class="w3-opacity">
+    <p>-Purpose of this study is to examine the difference in significance between force and cadence<br>
+-Controversies through studies in performance differences between high cadence versus high force<br>
+-Conflicting results from factors such as study designs, participant population, and methods used to assess VO2.
+
+    </p>
+    <h2>Rationale For the Study</h2>
+    <hr class="w3-opacity">
+    <p>-Practical Implications for Coaches and Athletes <br>
+-Optimal combination for Force and Cadence<br>
+-Guideline for enhancing performance and endurance capacities 
+    </p>
+    <h2>Research Question and Hypothesis</h2>
+    <hr class="w3-opacity">
+    <p>-What is the effect of force versus cadence on VO2 during a step incremental test?<br>
+-Predicted that a high force steady cadence exercise would result in greater VO2.<br>
+-More force output leads to more activation and recruitment of muscle fibers which leads to greater energy demand and thus, greater oxygen demand (Millet et al., 2002)
+
+    </p>
+    <h2>Data Collection: Measures and Materials</h2>
+    <hr class="w3-opacity">
+    <p>-Bicycle ergometer (Ergoline GmbH; www.ergoline.com)<br>
+-Heart rate monitor (Polar Global; www.polar.com)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Heart rate<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Shows stress on CV system<br>
+-Metabolic testing cart (Parvo Medics TrueOne 2400; www.parvo.com)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-And all necessary accessories such as mask, hose, etc.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-VO2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Metabolic demands of exercise<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Muscle fibre types<br>
+-Modified RPE scale (Borg, 1970)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-RPE (self-reported fatigue)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Central fatigue and pain
+
+    </p>
+    <h2>Data Collection: Procedures</h2>
+    <hr class="w3-opacity">
+    <p>-Manipulation tests<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-PO is same in each stage for both protocol A and B<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Reached using cadence or load<br>
+-3 parts:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Baseline testing using maximal RAMP cycling test to determine maximum power output<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Cadence-manipulation step-incremental cycling test<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Load on the bike stays the same at every PO; cadence increases in three steps<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Load-manipulation step-incremental cycling test<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Cadence stays the same at every PO; load increases in three steps
+<div class="w3-col-padding w3-container w3-center">
+      <img src="./img/p1.png" style="width:30%" >
+      <img src="./img/p2.png" style="width:35%" >
+      <img src="./img/p3.png" style="width:55%" >
+    </div>
+    </p>
+    <h2>Preliminary Results</h2>
+    <hr class="w3-opacity">
+    <p>-Higher VO2 in cadence manipulation - why?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Muscle fibre types for high-velocity tasks vs high-load (Plotkin et al., 2021)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Type IIx vs IIa<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Rate of ventilation and rate of exercise task<br>
+-Intersection between cadence and load manipulation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-“Sweet spot” for force-velocity relationship
+<div class="w3-col-padding w3-container w3-center">
+      <img src="./img/p4.png" style="width:35%" >
+      <img src="./img/p5.png" style="width:35%" >
+    </div>
+    </p>
+    <h2>Limitations</h2>
+    <hr class="w3-opacity">
+    <p>-This graph shows how there is a dissociation between VO2 during a RAMP test and constant load exercising, which is similar to the STEP test that we performed"<br>
+-At the same power output, a constant load exercise would require more VO2 compared to during a RAMP test, therefore our participant was seen to fatigue earlier, and unable to continue into stage 3 during our experiment"
+    <div class="w3-col-padding w3-container w3-center">
+      <img src="./img/p10.jpeg" style="width:65%" >
+    </div>
+    </p>
+    <h2>Modifications</h2>
+    <hr class="w3-opacity">
+    <p>-Allocate more days for the experiment<br>
+-Recruit larger sample size<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Population - untrained individuals aged 20-25<br>
+-Variables unchanged <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Use of GET instead of PO max in RIT<br>
+-Control external variables to the best ability <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Body weight/composition<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Hydration status <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Nutrition/Energy levels<br>
+-Protocol:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Determine exercise thresholds and domain<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Prescribe exercise under the individual’s GET  
+<div class="w3-col-padding w3-container w3-center">
+      <img src="./img/p6.png" style="width:35%" >
+      <img src="./img/p7.png" style="width:35%" >
+      <img src="./img/p8.png" style="width:45%" >
+      <img src="./img/p9.png" style="width:45%" >
+    </div>
+    </p>
+    <h2>References</h2>
+    <hr class="w3-opacity">
+    <p>Felici, Francesco & Sbriccoli, Paola. (2006). Muscle, Skeletal. 10.1002/9780471740360.ebs0807.<br> 
+Jamnick, N. A., Pettitt, R. W., Granata, C., Pyne, D. B., & Bishop, D. (2020). An Examination and Critique of Current Methods to Determine Exercise Intensity. Sports Medicine, 50(10), 1729–1756. https://doi.org/10.1007/s40279-020-01322-8<br>
+Keir, D. A., Paterson, D. H., Kowalchuk, J. M., & Murias, J. M. (2018). Using ramp-incremental V̇O2 responses for constant-intensity exercise selection. Applied Physiology, Nutrition, and Metabolism, 43(9), 882–892. https://doi.org/10.1139/apnm-2017-0826<br>
+Millet, G. P., Jaouen, B., Borrani, F., & Candau, R. (2002). Effects of concurrent endurance and strength training on running economy and VO(2)<br>
+kinetics. Medicine and science in sports and exercise, 34(8), 1351–1359. https://doi.org/10.1097/00005768-200208000-00018<br>
+Pettitt, R. W., Clark, I. E., Ebner, S. M., Sedgeman, D., & Murray, S. R. (2013). Gas Exchange Threshold and V[Combining Dot Above]O2max Testing for Athletes. Journal of Strength and Conditioning Research, 27(2), 549–555. https://doi.org/10.1519/jsc.0b013e31825770d7<br>
+Plotkin, D. L., Roberts, M. D., Haun, C. T., & Schoenfeld, B. J. (2021). Muscle Fiber Type Transitions with Exercise Training: Shifting Perspectives. Sports (Basel, Switzerland), 9(9), 127. https://doi.org/10.3390/sports9090127
+
+    </p>
+
+  <!-- Video Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Video</h2>
+
+    <!-- Image of location/map -->
+    <iframe src="https://www.dartfish.tv/Embed?CR=p191134c538588m7988272&VW=960&VH=552&sh=li&aid=8f509e5a-201d-4f8d-a0e3-13771b0d3e93" width="960" height="567" frameborder="0" allowfullscreen ></iframe>
+  </div>  
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
 </body>
 </html>
